@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 * Reimplementing helpdesk to use Microsoft flow for web form submissions and file uploads
 
+### Fixed
+
+* Link to Microsoft flow within GitLab issue text for web form and email submissions
+
 ### Changed
 
 * Updating web form to use BAS Style Kit 0.6.0-beta
