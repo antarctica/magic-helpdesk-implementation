@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed [BREAKING!]
 
 * Reimplementing helpdesk to use Microsoft flow for web form submissions and file uploads
+* Update link to SharePoint page
 
 ### Fixed
 
