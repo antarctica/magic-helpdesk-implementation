@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Reimplementing helpdesk to use Microsoft flow for web form submissions and file uploads
 * Update link to SharePoint page
 
+### Added
+
+* closed for holidays maintenance page
+
 ### Fixed
 
 * Link to Microsoft flow within GitLab issue text for web form and email submissions
