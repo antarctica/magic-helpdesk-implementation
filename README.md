@@ -2,11 +2,11 @@
 
 This project documents how the MAGIC Helpdesk is implemented, and manages the online web form used by users.
 
-See the main [MAGIC Helpdesk 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/general-and-helpdesk) project for Helpdesk requests.
+See the main [MAGIC Helpdesk 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/helpdesk) project for Helpdesk requests.
 
 **Note:** This project also documents how notifications for BAS Map Sales are implemented.
 
-See the main [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/general-and-helpdesk) project for map sales orders.
+See the main [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/map-sales) project for map sales orders.
 
 **Note:** This project is focused on needs within the British Antarctic Survey. It has been open-sourced in case it is
 of interest to others. Some resources, indicated with a '🛡' or '🔒' symbol, can only be accessed by BAS staff or
@@ -31,7 +31,7 @@ Users can submit map sales orders to MAGIC via a supported [Communications chann
 
 * [email](#email): by contacting [mapsales@bas.ac.uk](mailto:mapsales@bas.ac.uk)
 
-Orders are added as GitLab issues in the [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/general-and-helpdesk) 
+Orders are added as GitLab issues in the [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/map-sales) 
 project and then notifies members of the 
 [Map Sales channel 🔒](https://teams.microsoft.com/l/channel/19%3A50f084c4a1fa4762a08519e6c8d3addb%40thread.skype) 
 in the MAGIC Microsoft Team.
@@ -62,7 +62,7 @@ Emails sent to the `magic@bas.ac.uk` mailbox trigger a Power Automate flow which
 
 ### Web
 
-Forms submitted from https://gitlab.data.bas.ac.uk/MAGIC/general-and-helpdesk trigger a Power Automate Flow which:
+Forms submitted from http://magic-helpdesk.web.bas.ac.uk trigger a Power Automate Flow which:
 
 - composes a GitLab issue according to a template using information from the form submission
 - if attachments are included in the submission, a list of links to each attachment is included in the issue text
