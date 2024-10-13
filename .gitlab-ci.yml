@@ -26,3 +26,7 @@ publish:
   environment:
     name: production
     url: https://magic-helpdesk.web.bas.ac.uk
+  rules:
+    -
+      changes:
+        - public/**.*
