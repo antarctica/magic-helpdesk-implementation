@@ -31,9 +31,9 @@ Users can submit map sales orders to MAGIC via a supported [Communications chann
 
 * [email](#email): by contacting [mapsales@bas.ac.uk](mailto:mapsales@bas.ac.uk)
 
-Orders are added as GitLab issues in the [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/map-sales) 
-project and then notifies members of the 
-[Map Sales channel 🔒](https://teams.microsoft.com/l/channel/19%3A50f084c4a1fa4762a08519e6c8d3addb%40thread.skype) 
+Relevant emails are manually forwarded to the `mapsalespaadmin@bas.ac.uk` account. Emails to this account are added 
+as GitLab issues in the [Map Sales 🛡️](https://gitlab.data.bas.ac.uk/MAGIC/map-sales), which then notifies members of 
+the  [Map Sales channel 🔒](https://teams.microsoft.com/l/channel/19%3A50f084c4a1fa4762a08519e6c8d3addb%40thread.skype) 
 in the MAGIC Microsoft Team.
 
 ### Access
@@ -58,7 +58,8 @@ Emails sent to the `magic@bas.ac.uk` mailbox trigger a Power Automate flow which
 
 **Note:** Microsoft Outlook's inbuilt spam protection is used to filter unwanted messages from being processed.
 
-**Note:** For Map Sales, a similar Power Automate flow is run linked to the Map Sales shared inbox and GitLab project.
+**Note:** For Map Sales, a similar Power Automate flow is run linked to the Map Sales Admin 
+(`mapsalespaadmin@bas.ac.uk`) inbox and Map Sales GitLab project.
 
 ### Web
 
@@ -135,9 +136,9 @@ relevant components such as shared mailboxes.
 Microsoft Office 365 Exchange shared mailboxes assigned to MAGIC:
 
 * `basmagic@bas.ac.uk` and `magic@bas.ac.uk` (latter is an alias name and is preferred over real name)
-* `mapsales@bas.ac.uk` (used for [Map Sales](#map-sales) project)
+* `mapsales@bas.ac.uk` and `mapsalespaadmin@bas.ac.uk` (separate accounts, used for [Map Sales](#map-sales) project)
 
-These mailboxes are owned by Andrew and administered by @lauger and others that monitor the Helpdesk / Map Sales.
+These mailboxes are administered by @lauger and others that monitor the Helpdesk / Map Sales.
 
 Delegated access to these mailboxes can be requested via the BAS IT Service Desk and is needed to view attachments, 
 flag spam messages, etc.
