@@ -9,12 +9,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed [BREAKING!]
 
-* Reimplementing helpdesk to use Microsoft flow for web form submissions and file uploads
-* Update link to SharePoint page
+* Rebuilding all flows to use the BAS IT Power Automate account and sending notifications to teams
+* Link to SharePoint page
 
 ### Added
 
 * closed for holidays maintenance page
+
+## [2.0.0] - 2023-07-10
 
 ### Fixed
 
