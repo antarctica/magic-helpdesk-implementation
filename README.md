@@ -110,7 +110,7 @@ All other components use the Microsoft Office 365 platform.
 Helpdesk:
 
 - [Helpdesk (Web Attachments)](https://make.powerautomate.com/environments/Default-b311db95-32ad-438f-a101-7ba061712a4e/flows/f19d6469-b46c-45c5-8023-373953fd6310/details)
-- [Helpdesk (Web)](https://make.powerautomate.com/environments/Default-b311db95-32ad-438f-a101-7ba061712a4e/flows/e9ade387-7df0-4212-b851-328aa7c9c620/details)
+- [Helpdesk (Web)](https://make.powerautomate.com/environments/Default-b311db95-32ad-438f-a101-7ba061712a4e/flows/shared/e9ade387-7df0-4212-b851-328aa7c9c620/details)
 - [Helpdesk (Email)](https://make.powerautomate.com/environments/Default-b311db95-32ad-438f-a101-7ba061712a4e/flows/b6445530-eb57-46d0-80a5-e4b89c61fd89/details)
 - [Helpdesk (GitLab) / Teams notifications](https://make.powerautomate.com/environments/Default-b311db95-32ad-438f-a101-7ba061712a4e/flows/1631d5e5-1229-4ab6-9ad7-cab31c37b327/details)
 
