@@ -1,6 +1,6 @@
 // Global state
-var form_endpoint_url = "https://prod-123.westeurope.logic.azure.com:443/workflows/8f0470dd34124b1a84e3df14db559913/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=s9m2YPjraqKmegflfXi0-1ycI7cT3ZUqGpSMx2LPq68";
-var attachments_endpoint_url = "https://prod-58.westeurope.logic.azure.com:443/workflows/297c1c8eb79a4a149742f1c08128cbe7/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=4AXDJ--lG0b6PSMpLVZfELtOQS5zMzKmOZ8jjJkz-XU";
+var form_endpoint_url = "https://defaultb311db9532ad438fa1017ba061712a.4e.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/8f0470dd34124b1a84e3df14db559913/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=KQsCoe6Rh7ueMrAmMXK3FQovAvBfGAAwwOfzZ_pBQeU";
+var attachments_endpoint_url = "https://defaultb311db9532ad438fa1017ba061712a.4e.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/297c1c8eb79a4a149742f1c08128cbe7/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=OSULyFbFAzPd0xE0AwfAJqNsCf64lSo1Gsfg4_31s6I";
 var attachments_base_url = "https://nercacuk.sharepoint.com/sites/BASMagicTeam/magichelpdeskattachments/";
 
 var attachments = [];
